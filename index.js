@@ -3,3 +3,9 @@ function iterativeLog(array) {
     console.log(`${index}: ${element}`)
   })
 }
+
+function iterate(callback){
+  array1 = [1,2,3];
+  array1.forEach(callback());
+  return array1
+}
