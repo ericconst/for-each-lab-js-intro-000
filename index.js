@@ -9,3 +9,7 @@ function iterate(callback){
   array1.forEach(callback());
   return array1
 }
+
+function doToArray(array, callback){
+  array.forEach(callback());
+}
